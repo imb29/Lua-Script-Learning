@@ -5,4 +5,4 @@ local msg = ac.OnlineEvent({
     Car = ac.StructItem.string(64),
 })
 
--- msg{ Score = personalBest, Multiplier = comboMeter, Car = ac.getCarName(0) }
+msg{ Score = personalBest, Multiplier = comboMeter, Car = ac.getCarName(0) }
