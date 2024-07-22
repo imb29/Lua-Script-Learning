@@ -190,7 +190,7 @@ local speedWarning = 0
  
         ui.pushStyleVar(ui.StyleVar.Alpha, 1 - speedWarning)
         ui.pushFont(ui.Font.Main)
-        ui.textColored("Dory's Cove", colorCombo)
+        ui.textColored("Racing Server", colorCombo)
         ui.textColored("Highest Score: " .. highestScore .. " pts", colorCombo)
         ui.popFont()
         ui.pushFont(ui.Font.Title)
